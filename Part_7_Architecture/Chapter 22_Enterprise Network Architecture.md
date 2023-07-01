@@ -1,2 +1,53 @@
 # **Enterprise Network Architecture**
 
+## 1. **Hierarchical LAN Design Model**
+
+![image-20230701222111116](images/image-20230701222111116.png)
+
+<img src="images/image-20230701222126435.png" alt="image-20230701222126435" style="zoom: 33%;" />
+
+
+
+![image-20230701222313122](images/image-20230701222313122.png)
+
+![image-20230701222456136](images/image-20230701222456136.png)
+
+<img src="images/image-20230701222517102.png" alt="image-20230701222517102" style="zoom: 33%;" />
+
+![image-20230701223026144](images/image-20230701223026144.png)
+
+![image-20230701223408729](images/image-20230701223408729.png)
+
+<img src="images/image-20230701223624370.png" alt="image-20230701223624370" style="zoom: 33%;" />
+
+
+
+## 2. **Enterprise Network Architecture Options**
+
+![image-20230701223845746](images/image-20230701223845746.png)
+
+![image-20230701223929837](images/image-20230701223929837.png)
+
+![image-20230701223953412](images/image-20230701223953412.png)
+
+![image-20230701224656500](images/image-20230701224656500.png)
+
+![image-20230701224814747](images/image-20230701224814747.png)
+
+![image-20230701224920240](images/image-20230701224920240.png)
+
+![image-20230701225242632](images/image-20230701225242632.png)
+
+![image-20230701225348710](images/image-20230701225348710.png)
+
+![image-20230701225750122](images/image-20230701225750122.png)
+
+![image-20230701225955933](images/image-20230701225955933.png)
+
+![image-20230701230104077](images/image-20230701230104077.png)
+
+![image-20230701230158399](images/image-20230701230158399.png)
+
+![image-20230701230625864](images/image-20230701230625864.png)
+
+![image-20230701230718513](images/image-20230701230718513.png)
