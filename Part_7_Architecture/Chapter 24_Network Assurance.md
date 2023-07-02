@@ -1,70 +1,146 @@
 # **Network Assurance**
 
-
-
 ## 1. **Network Diagnostic Tools**
 
+![image-20230702210219093](images/image-20230702210219093.png)
 
+<img src="images/image-20230702210300606.png" alt="image-20230702210300606" style="zoom:50%;" />
 
+![image-20230702210318443](images/image-20230702210318443.png)
 
+![image-20230702210341900](images/image-20230702210341900.png)
 
+![image-20230702210447871](images/image-20230702210447871.png)
 
+![image-20230702210459528](images/image-20230702210459528.png)
 
+![image-20230702210543282](images/image-20230702210543282.png)
 
+![image-20230702215612849](images/image-20230702215612849.png)
+
+![image-20230702215622172](images/image-20230702215622172.png)
 
 
 
 ## 2. **Debugging**
 
+![image-20230702215914502](images/image-20230702215914502.png)
+
+<img src="images/image-20230702215938248.png" alt="image-20230702215938248" style="zoom:50%;" />
+
+![image-20230702221640328](images/image-20230702221640328.png)
+
+![image-20230702221700275](images/image-20230702221700275.png)
+
+![image-20230702221751269](images/image-20230702221751269.png)
+
+![image-20230702221951100](images/image-20230702221951100.png)
+
+![image-20230702222045613](images/image-20230702222045613.png)
+
+![image-20230702222304937](images/image-20230702222304937.png)
+
+#### **Conditional Debugging**
+
+![image-20230702222822503](images/image-20230702222822503.png)
+
+#### **Simple Network Management Protocol (SNMP)**
+
+![image-20230702223056075](images/image-20230702223056075.png)
+
+![image-20230702223310106](images/image-20230702223310106.png)
+
+![image-20230702223358484](images/image-20230702223358484.png)
 
 
 
+#### **syslog**
 
+![image-20230702223858937](images/image-20230702223858937.png)
 
+![image-20230702224126479](images/image-20230702224126479.png)
 
-
+![image-20230702224146603](images/image-20230702224146603.png)
 
 
 
 ## 3. **NetFlow and Flexible NetFlow**
 
+![image-20230702224713523](images/image-20230702224713523.png)
 
+![image-20230702224758451](images/image-20230702224758451.png)
 
+![image-20230702224904115](images/image-20230702224904115.png)
 
+![image-20230702224919170](images/image-20230702224919170.png)
 
+![image-20230702225013817](images/image-20230702225013817.png)
 
-
-
+![image-20230702225044623](images/image-20230702225044623.png)
 
 
 
 ## 4. **Switched Port Analyzer (SPAN Technologies)**
 
+![image-20230702225531471](images/image-20230702225531471.png)
+
+![image-20230702225601510](images/image-20230702225601510.png)
+
+![image-20230702230103279](images/image-20230702230103279.png)
+
+![image-20230702230116354](images/image-20230702230116354.png)
+
+### **Local SPAN**
+
+![image-20230702230611055](images/image-20230702230611055.png)
+
+![image-20230702230805697](images/image-20230702230805697.png)
+
+![image-20230702230845620](images/image-20230702230845620.png)
+
+![image-20230702230900607](images/image-20230702230900607.png)
+
+![image-20230702231018838](images/image-20230702231018838.png)
 
 
 
+### **Remote SPAN (RSPAN)**
+
+![image-20230702231243542](images/image-20230702231243542.png)
+
+![image-20230702231303265](images/image-20230702231303265.png)
+
+![image-20230702231441401](images/image-20230702231441401.png)
 
 
 
+### **Encapsulated Remote SPAN (ERSPAN)**
 
+![image-20230702231529327](images/image-20230702231529327.png)
+
+![image-20230702231701555](images/image-20230702231701555.png)
+
+![image-20230702231711271](images/image-20230702231711271.png)
 
 
 
 ## 5. **IP SLA**
 
+![image-20230702231738836](images/image-20230702231738836.png)
 
+![image-20230702231943789](images/image-20230702231943789.png)
 
+![image-20230702232015113](images/image-20230702232015113.png)
 
+![image-20230702232046231](images/image-20230702232046231.png)
 
-
-
-
+![image-20230702232146313](images/image-20230702232146313.png)
 
 
 
 ## 6. **Cisco DNA Center Assurance**
 
-
+![image-20230702232252403](images/image-20230702232252403.png)
 
 
 
