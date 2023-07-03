@@ -1,2 +1,87 @@
 # **Secure Network Access Control**
 
+## 1. **Network Security Design for Threat Defense**
+
+![image-20230703092831690](images/image-20230703092831690.png)
+
+![image-20230703093018798](images/image-20230703093018798.png)
+
+![image-20230703093326401](images/image-20230703093326401.png)
+
+![image-20230703093343349](images/image-20230703093343349.png)
+
+<img src="images/image-20230703093434920.png" alt="image-20230703093434920" style="zoom: 33%;" />
+
+![image-20230703093634229](images/image-20230703093634229.png)
+
+![image-20230703093657302](images/image-20230703093657302.png)
+
+
+
+## 2. **Next-Generation Endpoint Security**
+
+The following sections describe the most critical components needed to implement the Cisco SAFE framework for a campus environment (or PIN, in Cisco SAFE terminology).
+
+![image-20230703094122380](images/image-20230703094122380.png)
+
+![image-20230703094226562](images/image-20230703094226562.png)
+
+![image-20230703094357683](images/image-20230703094357683.png)
+
+![image-20230703094446521](images/image-20230703094446521.png)
+
+![image-20230703094731945](images/image-20230703094731945.png)
+
+![image-20230703094904928](images/image-20230703094904928.png)
+
+![image-20230703095008149](images/image-20230703095008149.png)
+
+![image-20230703095315697](images/image-20230703095315697.png)
+
+![image-20230703095504385](images/image-20230703095504385.png)
+
+![image-20230703100229567](images/image-20230703100229567.png)
+
+![image-20230703100408322](images/image-20230703100408322.png)
+
+![image-20230703100424301](images/image-20230703100424301.png)
+
+![image-20230703100642529](images/image-20230703100642529.png)
+
+
+
+## 3. **Network Access Control (NAC)**
+
+![image-20230703100815790](images/image-20230703100815790.png)
+
+![image-20230703101828237](images/image-20230703101828237.png)
+
+<img src="images/image-20230703102239758.png" alt="image-20230703102239758" style="zoom:50%;" />
+
+![image-20230703102327828](images/image-20230703102327828.png)
+
+![image-20230703102424842](images/image-20230703102424842.png)
+
+![image-20230703102728665](images/image-20230703102728665.png)
+
+![image-20230703102807422](images/image-20230703102807422.png)
+
+![image-20230703102825313](images/image-20230703102825313.png)
+
+![image-20230703103042748](images/image-20230703103042748.png)
+
+![image-20230703103541187](images/image-20230703103541187.png)
+
+![image-20230703103803208](images/image-20230703103803208.png)
+
+![image-20230703104013985](images/image-20230703104013985.png)
+
+
+
+![image-20230703104252170](images/image-20230703104252170.png)
+
+![image-20230703104519106](images/image-20230703104519106.png)
+
+![image-20230703104601632](images/image-20230703104601632.png)
+
+![image-20230703104722305](images/image-20230703104722305.png)
