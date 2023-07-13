@@ -441,6 +441,96 @@ Q767
 
 ![image-20230710145416699](images/image-20230710145416699.png)
 
-## LAB 744 / 745 / 746 / 747 / 751 / 752 / 754 / 
+## LAB 744 / 745 / 746 / 747 / 751 / 752 / 754 /
 
  
+
+Q751
+
+```shell
+event manager applet int_loopback_Shutdown
+event syslog pattern "Interface Loopback0, changed state to administratively down"
+action 1.0 cli command "enable"
+action 1.5 cli command "config ter"
+action 2.0 cli command "interface loopback0"
+action 2.5 cli command "no shutdown"
+action 3.0 cli command "end"
+```
+
+Q752
+
+<img src="images/image-20230712110700944.png" alt="image-20230712110700944" style="zoom:50%;" />
+
+1. Configure a SPAN session on SW01 using these parameters:
+
+• Session Number: 20
+• Source Interface: VLAN 99
+• Traffic Direction: Transmitted Traffic
+• Destination Interface: Ethernet 0/1
+
+2. Configure the NetFlow Top Talkers feature for outbound traffic on interface E0/2 of R01 with these parameters:
+
+• Number of Top Talkers: 50
+• Sort Type: Packets
+• Cache Timeout: 30 seconds
+
+3. Configure an IP SLA operation on SW02 and start the ICMP probe with these parameters:
+
+• Entry Number: 10
+• Target IP: 1.1.1.1
+• Source IP: 172.16.2.2
+• Frequency: 5 seconds
+• Threshold: 250 milliseconds
+• Timeout: 3000 milliseconds
+• Lifetime: Forever
+
+```shell
+### Task1 ### 
+SW1:
+config ter
+monitor session 20
+source vlan 99 tx
+destination interface ethernet 0/1
+
+### Task2 ###
+R01:
+config ter
+interface eth0/2
+ip flow egress
+ip flow-top-talkers
+top 50
+sort-by packets
+cache-timeout 30000
+
+### Task3 ###
+SW02:
+ip sla 10
+icmp-echo 1.1.1.1 source-ip 172.16.2.2
+frequency 5
+threshold 250
+timeout 3000
+
+ip sla schedule 10 life forever start-time now
+```
+
+
+
+Q754 GLBP
+
+```shell
+Primary Switch:
+
+interface vlan 100
+ip address 192.168.1.2 255.255.255.0
+glbp 30 ip 192.168.1.254
+glbp 30 priority 130
+glbp 30 preempt delay minimum 35
+end
+
+Secondary Switch:
+
+interface vlan 100 
+ip address 192.168.1.3 255.255.255.0
+glbp 30 ip 192.168.1.254
+```
+
