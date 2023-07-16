@@ -1,4 +1,4 @@
-| Number                | Description                                                  |
+| ——————————-Number     | Description                                                  |
 | :-------------------- | ------------------------------------------------------------ |
 | Q398 BGP              |                                                              |
 | Q394 HTTPS            | Core-Switch(config)#crypto pki trustpoint Core-Switch <br />Core-Switch(ca-trustpoint)#enrollment terminal <br />Core-Switch(config)#crypto pki enroll Core-Switch |
