@@ -1,12 +1,27 @@
-#### Q200
+| 4    | ———————————–<br />Q11 | \- It performs authentication and authorization. (vBond) <br />- It manages the control plane. (vSmart) <br />- It is the centralized network management system. (vManage) <br />- It manages the data plane. (vEdge) |
+| ---- | --------------------- | ------------------------------------------------------------ |
+| 4    | Q39                   | A fabric AP is a local mode AP and needs to be directly connected to the fabric edge switch |
+| 4    | Q50                   | The Cisco SD-WAN architecture implements two types of data policy: <br />- Centralized data policy controls the flow of data traffic based on the source and destination addresses and ports and DSCP fields in the packet's IP header (referred to as a 5-tuple), and based on network segmentation and VPN membership. These types of data policy are provisioned centrally, on the Cisco vSmart controller, and they affect traffic flow across the entire network. <br />- Localized data policy controls the flow of data traffic into and out of interfaces and interface queues on a Cisco vEdge device. This type of data policy is provisioned locally using access lists. It allows you to classify traffic and map different classes to different queues. It also allows you to mirror traffic and to police the rate at which data traffic is transmitted and received. |
+|      | Q59                   |                                                              |
+| 4    | Q200/Q168/Q139  BGP   | ??????????????                                               |
+| 4    | Q186 WLC              |                                                              |
+| 4    | Q160 SSO              | ??????????????                                               |
+| 4    | Q155/Q144/Q116 PIM    |                                                              |
+| 4    | Q143 WLC              |                                                              |
+| 4    | Q132 WLC              |                                                              |
+| 4    | Q130 OSPF             |                                                              |
+| 4    | Q100/Q89/Q78 GRE      | ??????????????                                               |
+| 4    | Q99/Q98/Q66 VRF       |                                                              |
+| 4    | Q61 VM                |                                                              |
+| 4    | Q58 WLC               |                                                              |
+
+
 
 #### Q199
 
 **BPDU Guard:** BPDU guard is a safety mechanism that shuts down ports configured with STP portfast upon receipt of a BPDU.
 
 **BPDU Filter:** BPDU filter simply blocks BPDUs from being transmitted out a port.
-
-#### Q198
 
 #### Q193
 
@@ -44,12 +59,6 @@ The AP goes through this process on startup:
 <img src="images/image-20230712210830065.png" alt="image-20230712210830065" style="zoom:50%;" />
 
 <img src="images/image-20230712210850547.png" alt="image-20230712210850547" style="zoom:50%;" />
-
-#### Q177
-
-#### Q171
-
-#### Q168
 
 #### Q160
 
@@ -177,7 +186,7 @@ The Link Management Protocol (LMP) is activated on each link of the StackWise Vi
 
 • Negotiates the version of StackWise Virtual header between the switches
 
-#### Q59/Q54/Q50/Q9 Cisco SD-WAN
+#### ~~Q59/Q54/Q50/Q9 Cisco SD-WAN~~
 
 ![image-20230713230201134](images/image-20230713230201134.png)
 
@@ -187,7 +196,7 @@ The Link Management Protocol (LMP) is activated on each link of the StackWise Vi
 
 #### Q52 QoS
 
-#### Q49/Q48/Q47 Cisco SD-Access?
+#### ~~Q49/Q48/Q47 Cisco SD-Access?~~
 
 **SDA supports two additional types of roaming, which are Intra-xTR and Inter-xTR.** In SDA, xTR stands for an access-switch that is a fabric edge node. It serves both as an ingress tunnel router as well as an egress tunnel router. 
 
@@ -195,15 +204,15 @@ When a client on a fabric enabled WLAN, roams from an access point to another ac
 
  When a client on a fabric enabled WLAN, roams from an access point to another access point on a different access-switch, it is called Inter-xTR. Here, the map server is also updated with the client location (RLOC) information. Also, the local client database is updated with the information of the newly associated access point.
 
-#### Q46 SD-Access
+#### ~~Q46 SD-Access~~
 
 Border node: The border nodes serve as the gateways between the Cisco SD-Access fabric and external networks.
 
 #### Q42 Load Balancing
 
-#### Q39/Q11 SD-Access
+#### ~~Q39/Q11 SD-Access~~
 
-#### Q38/Q34/Q33/Q31 SD-Access
+#### ~~Q38~~/~~Q34~~/Q33/~~Q31~~ SD-Access
 
 #### Q36 TCAM
 
@@ -217,9 +226,9 @@ C. provide advanced network security features such as 802.1X, DHCP snooping, VAC
 
 D. provide redundant aggregation for access layer devices and first-hop redundancy protocols such as VRRP. Distribution layer.
 
-#### Q25 SD-Access
+#### ~~Q25 SD-Access~~
 
-#### Q20 SSO
+#### ~~Q20 SSO~~
 
-#### Q4
+#### ~~Q4~~
 
