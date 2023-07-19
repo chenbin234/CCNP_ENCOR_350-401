@@ -1,30 +1,30 @@
-|      | ——————————-<br />Q600 Json |                                                              |
+| 3    | ——————————-<br />Q600 Json |                                                              |
 | ---- | -------------------------- | ------------------------------------------------------------ |
-|      | Q590 VRRP                  | Tack                                                         |
-|      | Q587 Wireless              |                                                              |
-|      | Q583 NSF                   |                                                              |
-|      | Q582 BGP                   | BGP rib failure from ‘show ip bgp’ indicates that a route learned from a neighbor where a lower administrative distance (from a static, or other IGP) has already been installed into the routing table, thus the BGP route has failed to install into the IP routing table (RIB) because it has been trumped by the lower admin distance route. |
-|      | Q581 REST                  | The principles to be discussed are:<br/>-   Least Privilege<br/>-   Fail-Safe Defaults<br/>-   Economy of Mechanism<br/>-   Complete Mediation<br/>-   Open Design<br/>-   Separation of Privilege<br/>-   Least Common Mechanism<br/>-   Psychological Acceptability |
-|      | Q577 AAA                   |                                                              |
-|      | Q575 ACL                   |                                                              |
-|      | Q573 WLC                   |                                                              |
+| 3    | Q590 VRRP                  | Tack                                                         |
+| 4    | Q587 Wireless              | DFS is Dynamic Frequency Selection, which is a function of using 5 GHz Wi-Fi frequencies that are generally reserved for radar. Because the 2.4Ghz band is free of radar, the DFS rules only apply to the 5.250 – 5.725 Ghz band. |
+| 4    | Q583 NSF                   | ??????????????                                               |
+| 4    | Q582 BGP                   | BGP rib failure from ‘show ip bgp’ indicates that a route learned from a neighbor where a lower administrative distance (from a static, or other IGP) has already been installed into the routing table, thus the BGP route has failed to install into the IP routing table (RIB) because it has been trumped by the lower admin distance route. |
+| 3    | Q581 REST                  | The principles to be discussed are:<br/>-   Least Privilege<br/>-   Fail-Safe Defaults<br/>-   Economy of Mechanism<br/>-   Complete Mediation<br/>-   Open Design<br/>-   Separation of Privilege<br/>-   Least Common Mechanism<br/>-   Psychological Acceptability |
+| 4    | Q577 AAA                   |                                                              |
+| 4    | Q575 ACL                   |                                                              |
+| 3    | Q573 WLC                   |                                                              |
 | 3    | Q570 SD-Access             |                                                              |
 | 3    | Q569 ERSPAN                |                                                              |
-|      | Q564 NETCONF               | show netconf schema \| section rpc-reply                     |
-|      | Q563 NSF                   | Cisco Nonstop Forwarding                                     |
-|      | Q560 CoPP                  | exceed-action action: Specifies the action to take on packets that exceed the rate limit violate-action action: Specifies the action to take on packets that continuously exceed the police rate limit. |
-|      | Q558 AP                    |                                                              |
-|      | Q556 STP                   | ??                                                           |
-|      | Q554 PIM                   |                                                              |
-|      | Q553 VRF                   |                                                              |
+| 3    | Q564 NETCONF               | show netconf schema \| section rpc-reply                     |
+| 4    | Q563 NSF                   | Cisco Nonstop Forwarding                                     |
+| 4    | Q560 CoPP                  | exceed-action action: Specifies the action to take on packets that exceed the rate limit violate-action action: Specifies the action to take on packets that continuously exceed the police rate limit. |
+| 3    | Q558 AP                    |                                                              |
+| 4    | Q556 STP                   | ??????????                                                   |
+| 3    | Q554 PIM                   |                                                              |
+| 4    | Q553 VRF                   | ???????????                                                  |
 | 3    | Q551 SD-Access             |                                                              |
-|      | Q550 DNA                   |                                                              |
-|      | Q548 Puppet                |                                                              |
-|      | Q546 Cisco StackWise       |                                                              |
-|      | Q542 NAT                   |                                                              |
+| 3    | Q550 DNA                   |                                                              |
+| 3    | Q548 Puppet                |                                                              |
+| 4    | Q546 Cisco StackWise       | ??????????                                                   |
+| 3    | Q542 NAT                   |                                                              |
 | 4    | Q536 ERSPAN                |                                                              |
-|      | Q535 REST                  |                                                              |
-| 3    | Q531 L2                    | ?                                                            |
+| 3    | Q535 REST                  |                                                              |
+| 3    | Q531 L2                    |                                                              |
 | 3    | Q530 SD-Access             |                                                              |
 | 3    | Q526 SD-WAN                | Overlay Management Protocol (OMP): The OMP routing protocol has a similar structure to BGP and manages the SD-WAN overlay network. Its protocol runs between vSmart controllers and between vSmart controllers and WAN edge routers, where control plane information—such as route prefixes, next-hop routes, crypto keys, and policy information—is exchanged over a secure DTLS or TLS connection. |
 | 4    | Q524 AP                    | A Workgroup Bridge (WGB) is a wireless client that serves as a non-root access point for wired clients. A WGB can associate to another access point that acts as a root access point, either in autonomous mode or in CAPWAP mode. A CAPWAP-enabled AP is an access point that is managed by a Wireless LAN Controller (WLC) using the Control and Provisioning of Wireless Access Points (CAPWAP) protocol. <br />To resolve the issue of a WGB failing to associate to a CAPWAP-enabled AP, you need to enable Aironet IE in the advanced WLAN settings on the WLC. Aironet IE is a Cisco proprietary information element that contains additional information about the WLAN, such as the VLAN ID, QoS parameters, and load balancing. Aironet IE is required for WGB association because it helps the WGB to identify the correct WLAN and VLAN for its wired clients. |
